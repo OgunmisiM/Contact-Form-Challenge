@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mid-container">
+        <p class="contact_us">Contact Us</p>
+        <h3 class="in_touch">Get in touch</h3>
+        <p class="supporting_text">
+          We’d love to hear from you. Please fill out this form.
+        </p>
+      </div>
+
+      <div class="form">
+        <form>
+          <div class="form-inline">
+            <div class="half_form">
+              <label for="firstName">First Name</label><br />
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First name"
+              />
+            </div>
+            <div class="half_form lastname">
+              <label for="lastName">Last Name</label><br />
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last name"
+              />
+            </div>
+          </div>
+          <div class="form_margin">
+            <label for="email">Email</label><br />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="you@company.com"
+            /><br />
+          </div>
+
+          <div class="form_margin">
+            <label for="phonenumber">Phone Number</label><br />
+            <div class="phone">
+              <select name="phone" id="phone">
+                <option value="US">US</option>
+              </select>
+              <input
+                type="tel"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="+1 (555) 000-0000"
+              /><br />
+            </div>
+          </div>
+
+          <div class="form_margin">
+            <label for="textarea">Message</label><br />
+            <textarea
+              name="textarea"
+              id="textarea"
+              style="height: 200px"
+            ></textarea>
+          </div>
+
+          <div class="form_margin">
+            <label
+              ><input class="check" type="checkbox" name="checkbox" /> You agree
+              to our friendly
+              <a href="#" style="color: #667085">privacy policy</a></label
+            >
+          </div>
+
+          <input class="submit" type="submit" value="Send message" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
