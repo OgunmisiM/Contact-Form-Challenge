@@ -97,7 +97,7 @@ label {
 
 @media only screen and (max-width: 768px) {
   body {
-    padding: 10px;
+    padding-inline: 20px;
   }
   input[type='text'],
   input[type='tel'],
